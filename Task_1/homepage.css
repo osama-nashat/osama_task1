@@ -1,0 +1,265 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(images/coffee_book_windowsill_130911_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    perspective: 600px;
+}
+
+header
+{
+    background-color:#2b1205;
+    color: white;
+    font-family:great vibes;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;    
+}
+
+.since
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family:great vibes;
+    font-size: 25px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+nav
+{
+    background-color: beige;
+    color: #401b01;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    
+    
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 5px;
+    text-align: center
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-top: 5px;
+    letter-spacing: 1px;
+} 
+
+nav ul li:after
+{
+    content: " |"
+}
+
+nav ul li:last-child:after
+{
+    content: " "
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #401b01;
+    font-family: arial;
+} 
+
+nav ul li a:hover
+{
+    font-weight: 700;
+    
+}
+
+
+.hero
+{
+    color: silver;
+    width:600px;
+    height: 500px;
+    margin-top: 60px;
+    padding: 10px;
+    font-family:great vibes;
+    font-size: 45px;
+    line-height: 80px;
+    
+}
+
+.hero span
+{
+    font-size: 60px;
+    color:white
+}
+
+.goto
+{
+    position: absolute;
+    right: 50px;
+    top: 650px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    height: 90px;
+    font-size: 300%;
+    font-family: lemon jelly personal use;
+    color: white;
+    border: 1px solid #DDD;
+    padding: 3px;
+    padding-top: 23px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    transform: scale3d(0.76, 0.76, 0.76);
+    transition: all .5s;
+}
+
+.goto:hover
+{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    transform: translateZ(10px)
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    top: 800px;
+}
+
+.footer-main-div
+{
+    width:100%;
+    height: auto;
+    margin: auto;
+    background-color:beige;
+    padding: 20px 0;
+}
+
+.footer-social-icons
+{
+    width:100%;
+    height: auto;
+    margin: auto
+}
+
+.footer-social-icons ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-social-icons ul li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social-icons ul li img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-social-icons ul li .twitter
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -5px;
+}
+
+.footer-menu-one
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer-menu-one ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu-one ul li
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-menu-one ul li a
+{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color:#401b01 ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-menu-two
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.footer-menu-two ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu-two ul li
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-menu-two ul li a
+{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color:#401b01;
+    text-decoration: none;
+}
+
+.footer-bottom
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color:#2b1205;
+}
+
+.footer-bottom p
+{
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFF
+}
+

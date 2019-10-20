@@ -1,0 +1,361 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(images/Coffee-time-coffee-40421444-1366-768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    perspective: 600px;
+}
+
+header
+{
+    background-color:#2b1205;
+    color: white;
+    font-family:great vibes;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;    
+}
+
+.since
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family:great vibes;
+    font-size: 25px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+nav
+{
+    background-color: beige;
+    color: #401b01;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    
+    
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 5px;
+    text-align: center
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-top: 5px;
+    letter-spacing: 1px;
+} 
+
+nav ul li:after
+{
+    content: " |"
+}
+
+nav ul li:last-child:after
+{
+    content: " "
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #401b01;
+    font-family: arial;
+} 
+
+nav ul li a:hover
+{
+    font-weight: 700;
+    
+}
+
+.container
+{
+    width: 100%;
+    height: 850px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.drinks
+{
+    border: 2px solid white;
+    border-left: none;
+    background-color: rgba(220,220,220,0.8);
+    width: 603px;
+    height: 700px;
+    float: right;
+    margin-right: 134px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.drinks:hover
+{
+    overflow:auto;
+}
+
+.drinks header
+{
+    width:100%;
+    color: white;
+    background-color: rgba(220,220,220,0);
+    font-family: sans-serif;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.drinks .drink-family
+{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.drinks .drink-family h2
+{
+    color: white;
+    font-size: 47px;
+}
+
+.drinks .drink-family .type
+{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.drinks .drink-family .type p
+{
+    color: #2b1205;
+    display: inline-block;
+}
+
+.drinks .drink-family .type .price
+{
+    border: 1px solid #2b1205;
+    color: #2b1205;
+    font-size: 17px;
+    width: 75px;
+    text-align: center;
+    margin: 8px;
+    padding: 2px;
+    float: right;
+}
+
+.deserts
+{
+    border: 2px solid white;
+    border-right: none;
+    background-color: rgba(220,220,220,0.8);
+    width: 603px;
+    height: 700px;
+    float: left;
+    margin-left: 134px;
+    margin-top: 50px;
+    overflow:hidden;
+}
+
+.deserts:hover
+{
+    overflow: auto;
+}
+
+.deserts header
+{
+    width: 100%;
+    background-color: rgba(220,220,220,0);
+    font-family: sans-serif;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.deserts .desert-family
+{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.deserts .desert-family h2
+{
+    color: white;
+    font-size: 47px;
+}
+
+.deserts .desert-family .type
+{
+    padding: 10px;
+    font-size: 30px;
+    color: #2b1205;
+    border-bottom: 1px solid white;
+}
+
+.deserts .desert-family .type p
+{
+    
+    display: inline-block;
+}
+
+.deserts .desert-family .type .ingre
+{
+    font-size: 20px;
+}
+
+.deserts .desert-family .type .price
+{
+    border: 1px solid #2b1205;
+    font-size: 17px;
+    width: 75px;
+    text-align: center;
+    margin: 8px;
+    padding: 2px;
+    float: right;
+}
+
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    top: 950px;
+}
+
+.footer-main-div
+{
+    width:100%;
+    height: auto;
+    margin: auto;
+    background-color:beige;
+    padding: 20px 0;
+}
+
+.footer-social-icons
+{
+    width:100%;
+    height: auto;
+    margin: auto
+}
+
+.footer-social-icons ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-social-icons ul li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social-icons ul li img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-social-icons ul li .twitter
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -5px;
+}
+
+.footer-menu-one
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer-menu-one ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu-one ul li
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-menu-one ul li a
+{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color:#401b01 ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-menu-two
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.footer-menu-two ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu-two ul li
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-menu-two ul li a
+{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color:#401b01;
+    text-decoration: none;
+}
+
+.footer-bottom
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color:#2b1205;
+}
+
+.footer-bottom p
+{
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFF
+}
